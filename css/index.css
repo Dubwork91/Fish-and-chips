@@ -140,6 +140,9 @@ button {
   vertical-align: top;
   border: 4px solid #2b9aa0;
 }
+aside span{
+color: #acdad8;
+}
 
 aside img{
   position: absolute;

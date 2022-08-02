@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Slabo 27px;
+    src: url("../font/Slabo_27px/Slabo27px-Regular.ttf");
+}
+@font-face {
+    font-family: Open Sans;
+    src: url("../font/Open_Sans/OpenSans-Light.ttf");
+}
+
+body{
+    margin: 0;
+    background-image: url("../img/fond.png");
+}   
+.cont {
+    max-width: 1100px;
+    margin: auto;
+    display: inline-block;
+  }
+/* ------------------------------
+            Header
+---------------------------------*/
+header{
+    background-color: #25b3b4;
+    border-top: 4px solid #2b9aa0;
+    border-bottom: 4px solid #2b9aa0;
+    margin: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+header img{
+    padding-left: 50px;
+}
+
+nav {
+    font-family: Slabo 27px;
+    font-size: 1em;
+    margin: 0px;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0 10px;
+  }
+
+/* ------------------------------
+            main
+---------------------------------*/
+main{
+  margin-left: 250px;
+}
+.sec1 h1{
+    font-family: Slabo 27px;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight:100;
+}
+.sec1 p{
+    text-align: center;
+    font-family: Open Sans;
+}
+.sec2{
+  background-color: #b6dedc;
+  width: 70%;
+  display: inline-block;
+}
+
+.sec2 h2 span{
+  color: #56afb3;
+}
+
+.sec2 h2 h3{
+  color: #454a54;
+}
+.sec2 h2{
+  font-family: Slabo 27px;
+  font-size: 3.5em;
+  text-align: center;
+}
+.sec2 .art1 img{
+  float: left; 
+  border-radius: 50px;  
+ }
+ 
+ .sec2 i{
+  color: #25b3b4;
+}
+.sec2 h3{
+  font-family: Slabo 27px;
+  font-size: 1.8em;
+  font-weight:100;
+}
+button {
+  color: white;
+  background-color:#25b3b4;
+  border: none;
+  padding: 10px;
+  float: right;
+}
+.sec2 button i{
+  color: white;
+}
+.sec2 .art1{
+  width: 40%;
+ padding-left: 15px;
+}
+
+.sec2 .art2{
+  width: 40%;
+ padding-left: 15px;
+}
+
+.art2{
+  padding-top: 3px;
+ }
+.art2{
+  float: right;
+ }
+ 
+ .sec2 .art2 img{
+  float: right; 
+  border-radius: 50px;  
+ }
+ 
+ .art1{
+  display: inline-block;
+ }
+ aside{
+  width: 26%;
+  background-color: #34b1b2;
+  color: white;
+  position: relative;
+  display: inline-block ;
+  vertical-align: top;
+  border: 4px solid #2b9aa0;
+}
+
+aside img{
+  position: absolute;
+  right: -70px;
+  top: -50px;
+}
+
+
+/* ------------------------------
+            footer
+---------------------------------*/
+
+footer {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  footer p {
+    margin-top: 0;
+  }
+  footer img {
+    width: 50px;
+  }
+  .sp1{
+    color: blue;
+  }
+.sp2{
+    color: blue;
+}

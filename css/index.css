@@ -12,9 +12,10 @@ body{
     background-image: url("../img/fond.png");
 }   
 .cont {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     display: inline-block;
+    text-align: center;
   }
 /* ------------------------------
             Header
@@ -51,8 +52,10 @@ nav {
 /* ------------------------------
             main
 ---------------------------------*/
-main{
-  margin-left: 250px;
+main {
+  min-width: 800px;
+  max-width: 1100px;
+  margin: auto;
 }
 .sec1 h1{
     font-family: Slabo 27px;
@@ -122,6 +125,7 @@ button {
 .art2{
   float: right;
  }
+
  
  .sec2 .art2 img{
   float: right; 
@@ -139,17 +143,27 @@ button {
   display: inline-block ;
   vertical-align: top;
   border: 4px solid #2b9aa0;
+  margin-left: 15px;
 }
 aside span{
 color: #acdad8;
 }
 
-aside img{
+main aside img{
   position: absolute;
-  right: -70px;
+  right: -80px;
   top: -50px;
+  transition: transform 5s;
+
+}
+aside img:hover{
+  transform:rotate(90deg); 
 }
 
+
+h1{
+  animation: 3s linear 1s infinite running slidein;
+}
 
 /* ------------------------------
             footer
@@ -157,12 +171,13 @@ aside img{
 
 footer {
     text-align: center;
-    width: 900px;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
   }
   footer p {
     margin-top: 0;
+    font-size: 0.8em;
   }
   footer img {
     width: 50px;
